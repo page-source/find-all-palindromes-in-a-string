@@ -1,10 +1,10 @@
-# Find all palindromes in a string
+# Find all palindromes in a string.
 #### All palindromes in a string with minimum length of a palindrome to be given by User.
 
-This repository deals with finding all palindromes in a string. The minimum length of desried palindromes can be set by user. If 
-user doesn't set any length ,the default minimum of any palindrome will be set to 3.
+This repository deals with finding all palindromes in a string. The minimum length of desired palindromes can be set by user. If 
+user doesn't set any length ,the default minimum length of palindromes will be set to 3.
 
-Examples - Let's say our function name is **findPalindromes** which accepts two parameters - one string & desried minimum length of palindrome.
+Examples - Let's say our function name is **findPalindromes** which accepts two parameters - one string & desired minimum length of palindromes.
 
 - findPalindromes('level' , 5);   //*outputs level*
 - findPalindromes('level' , 4);   //*outputs level*
