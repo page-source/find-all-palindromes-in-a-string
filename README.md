@@ -19,9 +19,9 @@ You get the idea probably!
 
 ```
 const findPalindromes = (str = '', minLengthOfPalindrome = 3) => {
-	for(i = 0; i < str.length - minLengthOfPalindrome + 1 ; i++) {
+	for(let i = 0; i < str.length - minLengthOfPalindrome + 1 ; i++) {
 		let subStr = '';
-		for (j = i; j < str.length - minLengthOfPalindrome + 1; j++) {
+		for (let j = i; j < str.length - minLengthOfPalindrome + 1; j++) {
 			subStr = str.substring(i , j + minLengthOfPalindrome);
 			isPalindrome(subStr);
 		}
